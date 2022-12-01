@@ -1,0 +1,13 @@
+#Ignoramos archivos screen
+Screen?.java
+#Ignoramos archivos .tmp
+/*.tmp
+#Ignoramos la capeta config
+/config
+#Ignoramos los archivos dat excepto los de la carpeta raiz
+*.dat
+!/*.dat
+#Ignoramos los archivos de la carpeta data2
+/data2/*
+!data2/data01.csv
+
