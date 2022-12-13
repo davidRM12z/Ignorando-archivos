@@ -10,4 +10,8 @@ Screen?.java
 #Ignoramos los archivos de la carpeta data2
 /data2/*
 !data2/data01.csv
+#Ignoramos los archivo .class
+*.class
+#Ignoramos el archivo passwords.dat
+passwords.dat
 
